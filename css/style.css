@@ -1,0 +1,52 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto:wght@400;500;700;900&display=swap");
+
+/* Common-Style */
+body {
+  font-family: "Bebas Neue", cursive;
+  font-family: "Roboto", sans-serif;
+  color: #3e3e3e;
+}
+h1 {
+  font-size: 72px;
+  font-family: "Bebas Neue", cursive;
+}
+
+.highlight-text {
+  color: #fabe4c;
+}
+
+.primary-button {
+  color: white;
+  background: linear-gradient(#a4bc46, #85a019);
+  border-radius: 10px;
+  padding: 10px;
+  font-weight: bold;
+}
+.bars-icon{
+    font-size:24px;
+}
+/* Header Section */
+header {
+  background-color: #fffbf0;
+}
+.logo {
+  width: 55px;
+  height: 40px;
+}
+.logo-text {
+  margin-left: 10px;
+}
+.logo-special-text {
+  color: #a4bc46;
+}
+.navbar-brand {
+  font-size: 26px;
+  font-weight: bold;
+}
+.navigation li a {
+  color: #3c3c3c;
+  font-weight: bold;
+}
+.banner-image img{
+    width: 80%;
+}
