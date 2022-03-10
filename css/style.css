@@ -10,6 +10,7 @@ h1 {
   font-size: 72px;
   font-family: "Bebas Neue", cursive;
 }
+
 .section-title {
   font-size: 48px;
   font-family: "Bebas Neue", cursive;
@@ -57,4 +58,13 @@ header {
 
 .card-background {
   background-color: #f1f1f1;
+}
+
+@media only screen and (max-width: 768px) {
+  .shopping-details {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
 }
