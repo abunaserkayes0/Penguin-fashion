@@ -10,7 +10,10 @@ h1 {
   font-size: 72px;
   font-family: "Bebas Neue", cursive;
 }
-
+.section-title {
+  font-size: 48px;
+  font-family: "Bebas Neue", cursive;
+}
 .highlight-text {
   color: #fabe4c;
 }
@@ -22,12 +25,13 @@ h1 {
   padding: 10px;
   font-weight: bold;
 }
-.bars-icon{
-    font-size:24px;
+.bars-icon {
+  font-size: 24px;
 }
 /* Header Section */
 header {
   background-color: #fffbf0;
+  width: 100%;
 }
 .logo {
   width: 55px;
@@ -47,6 +51,10 @@ header {
   color: #3c3c3c;
   font-weight: bold;
 }
-.banner-image img{
-    width: 80%;
+.banner-image img {
+  width: 80%;
+}
+
+.card-background {
+  background-color: #f1f1f1;
 }
